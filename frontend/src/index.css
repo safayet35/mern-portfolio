@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.active {
+	background-color: #2b2b2b;
+}
+.width-full {
+	width: 100%;
+}
+.active p {
+	color: white;
+}
+
+@keyframes eyeMovement {
+	0% {
+		transform: translate(0, 0);
+	}
+	25% {
+		transform: translate(-40px, 0);
+	}
+	50% {
+		transform: translate(40px, 0);
+	}
+	75% {
+		transform: translate(0, 40px);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+.eye-ball {
+	animation: eyeMovement 5s infinite;
+}
+
+.upload-input[type="file"] {
+	display: none;
+}

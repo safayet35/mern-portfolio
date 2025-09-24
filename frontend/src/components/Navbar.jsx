@@ -1,6 +1,6 @@
 import { GrUserAdmin } from "react-icons/gr";
 import { Link } from "react-router-dom";
-
+import headerImage from "../../public/assets/safuonsky.jpg"
 const Navbar = ({ style }) => {
   return (
     <>
@@ -12,7 +12,7 @@ const Navbar = ({ style }) => {
           <Link to="/">
             <img
               className="md:w-9 md:h-9  w-11 h-11 rounded-full"
-              src="../../public/assets/safuonsky.jpg"
+              src={headerImage}
               alt=""
             />
           </Link>

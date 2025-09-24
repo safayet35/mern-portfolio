@@ -5,7 +5,7 @@
     "description": "a game hosting frontend web design with tailwind",
     "projectType": "frontend",
     "coverImage": "https://market-resized.envatousercontent.com/previews/files/258447135/Preview/00_Preview.png?w=590&h=300&cf_fit=crop&crop=top&format=auto&q=85&s=aa6fd4c8ba7fe8339dfcc27d1ee5b3dd92135b40c81560c424a4c4f4e9a1228e",
-    "projectLink": "https://google.com"
+    "projectLink": "/"
   },
   {
     "id": 1,
@@ -13,6 +13,6 @@
     "description": "Dice game with score feature a game hosting frontend web design with tailwind",
     "projectType": "Game",
     "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiYrABsW6g7Rd95VnF-TVP4_I1PosURB_Z4Q&usqp=CAU",
-    "projectLink": "https://facebook.com"
+    "projectLink": "/"
   }
 ]
